@@ -5,7 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
+<!--
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introduce tu usuario y contraseña"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="72dp" />
+-->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/username"
         android:layout_width="match_parent"
@@ -48,5 +57,7 @@
         android:textSize="16sp"
         app:layout_constraintTop_toBottomOf="@+id/password">
     </com.google.android.material.button.MaterialButton>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
