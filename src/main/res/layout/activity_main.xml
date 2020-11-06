@@ -40,7 +40,6 @@
             android:hint="password"
             android:inputType="textPassword" />/>
     </com.google.android.material.textfield.TextInputLayout>
-
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button"
         android:layout_width="match_parent"
